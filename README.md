@@ -2,9 +2,9 @@
 
 Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.com/toddmotto/angular-pizza-creator)
 
-<a href="https://ultimateangular.com" target="_blank"><img src="https://toddmotto.com/img/ua.png"></a>
-
 > Check out the [live demo](https://toddmotto.com/angular-pizza-creator/)
+
+![Pizza](pizza.png)
 
 ### Features
 
