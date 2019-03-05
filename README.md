@@ -24,8 +24,8 @@ Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.
 Install dependencies and start the app
 
 ```
-yarn
-yarn start
+npm ci
+npm start
 ```
 
 Open `localhost:3000`, enter at least a few letters for name / address fields.
