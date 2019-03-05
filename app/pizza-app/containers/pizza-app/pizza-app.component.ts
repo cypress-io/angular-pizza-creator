@@ -8,7 +8,7 @@ import { PizzaValidators } from '../../validators/pizza.validator';
   template: `
     <div class="pizza-app">
 
-      <pizza-viewer 
+      <pizza-viewer
         [pizzas]="form.get('pizzas')"
         [activePizza]="activePizza">
       </pizza-viewer>
@@ -91,6 +91,7 @@ export class PizzaAppComponent implements OnInit {
 
   createOrder(order: FormGroup) {
     console.log(order.value);
+    alert('Order placed')
   }
 
 }
