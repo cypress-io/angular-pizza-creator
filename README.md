@@ -18,3 +18,16 @@ Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.
 * ValueChanges Observable
 * Custom FormControls + ControlValueAccessor
 * Ahead-of-Time compiled
+
+## Use
+
+Install dependencies and start the app
+
+```
+yarn
+yarn start
+```
+
+Open `localhost:3000`, enter at least a few letters for name / address fields.
+
+Add at least 1 topping and click "Place order". An alert should appear on success.
