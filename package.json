@@ -16,6 +16,7 @@
   "devDependencies": {
     "@angular/compiler": "4.0.0-rc.3",
     "@angular/compiler-cli": "4.0.0-rc.3",
+    "@percy/cypress": "1.0.2",
     "@types/core-js": "0.9.35",
     "@types/jasmine": "^2.5.43",
     "@types/karma": "^0.13.33",

@@ -26,6 +26,16 @@ context('Pizza Creator', () => {
     cy.contains('label.pizza-topping', 'Mozzarella').click()
     cy.contains('label.pizza-topping', 'Basil').click()
 
+    // confirm the pizza looks good
+    // scroll pizza view back into view
+    cy.get('form')
+      .scrollIntoView({})
+      .should('be.visible')
+    cy.wait(1000)
+    cy.get('.pizza--active')
+      .should('be.visible')
+      .percySnapshot('4 toppings')
+
     // check the price and order pizza
     cy.contains('.pizza-summary__total-price', 'Total: $12.75')
     cy.on('window:alert', cy.stub().as('alert'))
