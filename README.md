@@ -1,4 +1,4 @@
-# Angular Pizza Creator
+# Angular Pizza Creator [![CircleCI](https://circleci.com/gh/cypress-io/angular-pizza-creator.svg?style=svg)](https://circleci.com/gh/cypress-io/angular-pizza-creator)
 
 Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.com/toddmotto/angular-pizza-creator)
 
@@ -24,8 +24,9 @@ Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.
 Install dependencies and start the app
 
 ```
-npm ci
-npm start
+yarn install
+yarn setup
+yarn start
 ```
 
 Open `localhost:3000`, enter at least a few letters for name / address fields.
