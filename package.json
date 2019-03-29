@@ -11,7 +11,9 @@
     "start": "yarn run build:dev",
     "start:production": "yarn run clean && yarn run build",
     "test": "karma start --single-run",
-    "test:watch": "karma start"
+    "test:watch": "karma start",
+    "cypress:open": "cypress open",
+    "dev": "start-test 3000 cypress:open"
   },
   "devDependencies": {
     "@angular/compiler": "4.0.0-rc.3",
@@ -38,6 +40,7 @@
     "raw-loader": "0.5.1",
     "rimraf": "2.6.0",
     "sass-loader": "6.0.2",
+    "start-server-and-test": "1.7.12",
     "typescript": "2.2.1",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.4.1"
