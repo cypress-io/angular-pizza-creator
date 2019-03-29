@@ -8,9 +8,11 @@ context('Pizza Creator', () => {
 
   it('draws pizza correctly', function () {
     cy.percySnapshot('Empty Pizza')
+
     cy.enterDeliveryInformation()
     const toppings = ['Pepperoni', 'Chili', 'Onion']
     cy.pickToppings(...toppings)
+
     cy.percySnapshot(toppings.join(' - '))
 
     // scroll pizza view back into view
