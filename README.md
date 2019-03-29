@@ -6,4 +6,10 @@ Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.
 
 ![Pizza](pizza.png)
 
+## Tests
+
+Tests are located in [cypress/integration](cypress/integration) folder
+
+- [order-spec.js](cypress/integration/order-spec.js) is a function test that confirms the user can enter delivery details, pick toppings and place an order
+
 Interested in changing code? Check out [DEVELOPMENT.md](DEVELOPMENT.md)

@@ -1,6 +1,7 @@
 {
   "baseUrl": "http://localhost:3000",
   "viewportWidth": 1200,
+  "viewportHeight": 900,
   "projectId": "a2w8tk",
   "chromeWebSecurity": false
 }
