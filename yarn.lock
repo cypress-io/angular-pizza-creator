@@ -177,10 +177,10 @@
     sinon "7.2.3"
     winston "^2.0.0"
 
-"@percy/cypress@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@percy/cypress/-/cypress-1.0.2.tgz#235ac9aa6e57b6e72e284f882c22f294b048f4ac"
-  integrity sha512-7OIlWWyfoFBJ9q5JgF8goC3fbolnIafqwSObW8LhVGtw0CKeK66KDHfVQZYA/t7j1rvqhryugt8tckgi1xgChA==
+"@percy/cypress@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@percy/cypress/-/cypress-1.0.4.tgz#45523fe22530da148e4bcb75def6df8b006682ba"
+  integrity sha512-7xM4WEONFRjfa9zdooXIwUU7DhsXes08g4sX0iGAAgBz2o4N6TfuIIczFr+6W0kvOiZCk04UBdFBnM13p89MIQ==
   dependencies:
     "@percy/agent" "^0.1.14"
 
