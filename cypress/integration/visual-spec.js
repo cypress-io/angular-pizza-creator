@@ -13,6 +13,8 @@ context('Pizza Creator', () => {
     const toppings = ['Pepperoni', 'Chili', 'Onion']
     cy.pickToppings(...toppings)
 
+    // make sure the web app has updated
+    cy.contains('.pizza-summary__total-price', 'Total: $12.06')
     cy.percySnapshot(toppings.join(' - '))
 
     // scroll pizza view back into view
