@@ -20,7 +20,7 @@
     "@angular/compiler-cli": "4.0.0-rc.3",
     "@percy/cypress": "1.0.9",
     "@types/core-js": "0.9.46",
-    "@types/jasmine": "2.5.43",
+    "@types/jasmine": "2.8.16",
     "@types/karma": "0.13.33",
     "@types/node": "7.0.5",
     "@ultimate/aot-loader": "0.1.12",
