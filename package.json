@@ -21,7 +21,7 @@
     "@percy/cypress": "1.0.9",
     "@types/core-js": "0.9.46",
     "@types/jasmine": "2.8.16",
-    "@types/karma": "0.13.33",
+    "@types/karma": "0.13.36",
     "@types/node": "7.0.5",
     "@ultimate/aot-loader": "0.1.12",
     "angular2-template-loader": "0.6.2",

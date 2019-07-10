@@ -287,10 +287,10 @@
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-3.12.0.tgz#3494ce97358e2675e24e97a747ec23478eeaf8b6"
   integrity sha512-UGEe/6RsNAxgWdknhzFZbCxuYc5I7b/YEKlfKbo+76SM8CJzGs7XKCj7zyugXViRbKYpXhSXhCYVQZL5tmDbpQ==
 
-"@types/karma@0.13.33":
-  version "0.13.33"
-  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-0.13.33.tgz#3835d3d94e884b6de8884a3e70a6f5690e6a5850"
-  integrity sha1-ODXT2U6IS23oiEo+cKb1aQ5qWFA=
+"@types/karma@0.13.36":
+  version "0.13.36"
+  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-0.13.36.tgz#b7c6aee79c8c9f722bb4e887719e0362b809e4a0"
+  integrity sha512-kJnh+plqvY9QgdXGwZSVaHbewiCCp1z+z5km0LSOno3dpMH23HNdN6mT8fcfRynx3LejRardjafLbb84EEGvEg==
   dependencies:
     "@types/bluebird" "*"
     "@types/log4js" "*"
