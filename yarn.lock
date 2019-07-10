@@ -276,9 +276,10 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/jasmine@^2.5.43":
+"@types/jasmine@2.5.43":
   version "2.5.43"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.5.43.tgz#6328a8c26082f2fd84f043c802c9ed7fa110b2dd"
+  integrity sha1-YyiowmCC8v2E8EPIAsntf6EQst0=
   dependencies:
     typescript ">=2.1.4"
 
@@ -287,9 +288,10 @@
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-3.12.0.tgz#3494ce97358e2675e24e97a747ec23478eeaf8b6"
   integrity sha512-UGEe/6RsNAxgWdknhzFZbCxuYc5I7b/YEKlfKbo+76SM8CJzGs7XKCj7zyugXViRbKYpXhSXhCYVQZL5tmDbpQ==
 
-"@types/karma@^0.13.33":
+"@types/karma@0.13.33":
   version "0.13.33"
   resolved "https://registry.yarnpkg.com/@types/karma/-/karma-0.13.33.tgz#3835d3d94e884b6de8884a3e70a6f5690e6a5850"
+  integrity sha1-ODXT2U6IS23oiEo+cKb1aQ5qWFA=
   dependencies:
     "@types/bluebird" "*"
     "@types/log4js" "*"
@@ -408,9 +410,10 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-angular2-template-loader@^0.6.2:
+angular2-template-loader@0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/angular2-template-loader/-/angular2-template-loader-0.6.2.tgz#c0d44e90fff0fac95e8b23f043acda7fd1c51d7c"
+  integrity sha1-wNROkP/w+sleiyPwQ6zaf9HFHXw=
   dependencies:
     loader-utils "^0.2.15"
 
@@ -641,9 +644,10 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-awesome-typescript-loader@^3.0.8:
+awesome-typescript-loader@3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/awesome-typescript-loader/-/awesome-typescript-loader-3.0.8.tgz#1cd13f3cfd7c0a23c7226c629b1a3b818b9e4bb1"
+  integrity sha1-HNE/PP18CiPHImximxo7gYueS7E=
   dependencies:
     colors "^1.1.2"
     enhanced-resolve "^3.1.0"
@@ -2147,9 +2151,10 @@ figures@^1.7.0:
     escape-string-regexp "^1.0.5"
     object-assign "^4.1.0"
 
-file-loader@^0.10.1:
+file-loader@0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-0.10.1.tgz#815034119891fc6441fb5a64c11bc93c22ddd842"
+  integrity sha1-gVA0EZiR/GRB+1pkwRvJPCLd2EI=
   dependencies:
     loader-utils "^1.0.2"
 
@@ -2653,9 +2658,10 @@ html-entities@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.0.tgz#41948caf85ce82fed36e4e6a0ed371a6664379e2"
 
-html-loader@^0.4.5:
+html-loader@0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/html-loader/-/html-loader-0.4.5.tgz#5fbcd87cd63a5c49a7fce2fe56f425e05729c68c"
+  integrity sha1-X7zYfNY6XEmn/OL+VvQl4Fcpxow=
   dependencies:
     es6-templates "^0.2.2"
     fastparse "^1.1.1"
@@ -3113,9 +3119,10 @@ isstream@0.1.x, isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-jasmine-core@^2.5.2:
+jasmine-core@2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.5.2.tgz#6f61bd79061e27f43e6f9355e44b3c6cab6ff297"
+  integrity sha1-b2G9eQYeJ/Q+b5NV5Es8bKtv8pc=
 
 jodid25519@^1.0.0:
   version "1.0.2"
@@ -3208,32 +3215,37 @@ jssha@^2.1.0:
   resolved "https://registry.yarnpkg.com/jssha/-/jssha-2.3.1.tgz#147b2125369035ca4b2f7d210dc539f009b3de9a"
   integrity sha1-FHshJTaQNcpLL30hDcU58Amz3po=
 
-karma-chrome-launcher@^2.0.0:
+karma-chrome-launcher@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/karma-chrome-launcher/-/karma-chrome-launcher-2.0.0.tgz#c2790c5a32b15577d0fff5a4d5a2703b3b439c25"
+  integrity sha1-wnkMWjKxVXfQ//Wk1aJwOztDnCU=
   dependencies:
     fs-access "^1.0.0"
     which "^1.2.1"
 
-karma-jasmine@^1.1.0:
+karma-jasmine@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/karma-jasmine/-/karma-jasmine-1.1.0.tgz#22e4c06bf9a182e5294d1f705e3733811b810acf"
+  integrity sha1-IuTAa/mhguUpTR9wXjczgRuBCs8=
 
-karma-sourcemap-loader@^0.3.7:
+karma-sourcemap-loader@0.3.7:
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/karma-sourcemap-loader/-/karma-sourcemap-loader-0.3.7.tgz#91322c77f8f13d46fed062b042e1009d4c4505d8"
+  integrity sha1-kTIsd/jxPUb+0GKwQuEAnUxFBdg=
   dependencies:
     graceful-fs "^4.1.2"
 
-karma-spec-reporter@^0.0.28:
+karma-spec-reporter@0.0.28:
   version "0.0.28"
   resolved "https://registry.yarnpkg.com/karma-spec-reporter/-/karma-spec-reporter-0.0.28.tgz#14e047e4d92903a226cd04ee616542fbec98da30"
+  integrity sha1-FOBH5NkpA6ImzQTuYWVC++yY2jA=
   dependencies:
     colors "^1.1.2"
 
-karma-webpack@^2.0.2:
+karma-webpack@2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/karma-webpack/-/karma-webpack-2.0.2.tgz#bd38350af5645c9644090770939ebe7ce726f864"
+  integrity sha1-vTg1CvVkXJZECQdwk56+fOcm+GQ=
   dependencies:
     async "~0.9.0"
     loader-utils "^0.2.5"
@@ -3241,9 +3253,10 @@ karma-webpack@^2.0.2:
     source-map "^0.1.41"
     webpack-dev-middleware "^1.0.11"
 
-karma@^1.5.0:
+karma@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/karma/-/karma-1.5.0.tgz#9c4c14f0400bef2c04c8e8e6bff59371025cc009"
+  integrity sha1-nEwU8EAL7ywEyOjmv/WTcQJcwAk=
   dependencies:
     bluebird "^3.3.0"
     body-parser "^1.16.1"
@@ -4554,9 +4567,10 @@ redeyed@~2.1.0:
   dependencies:
     esprima "~4.0.0"
 
-reflect-metadata@^0.1.10, reflect-metadata@^0.1.2:
+reflect-metadata@0.1.10, reflect-metadata@^0.1.2:
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.10.tgz#b4f83704416acad89988c9b15635d47e03b9344a"
+  integrity sha1-tPg3BEFqytiZiMmxVjXUfgO5NEo=
 
 regenerator-runtime@^0.13.1:
   version "0.13.1"
