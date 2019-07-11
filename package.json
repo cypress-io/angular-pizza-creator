@@ -23,7 +23,7 @@
     "@types/jasmine": "2.8.16",
     "@types/karma": "0.13.36",
     "@types/node": "7.10.6",
-    "@ultimate/aot-loader": "0.1.12",
+    "@ultimate/aot-loader": "0.1.16",
     "angular2-template-loader": "0.6.2",
     "awesome-typescript-loader": "3.0.8",
     "cypress": "3.4.0",
