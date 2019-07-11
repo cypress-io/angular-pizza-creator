@@ -334,9 +334,10 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
-"@ultimate/aot-loader@0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@ultimate/aot-loader/-/aot-loader-0.1.12.tgz#416b57eb869a93d2059e296996c998dd934b5832"
+"@ultimate/aot-loader@0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@ultimate/aot-loader/-/aot-loader-0.1.16.tgz#be9a048cc730614f5c9fe6e009557b7b4e8ca8b3"
+  integrity sha1-vpoEjMcwYU9cn+bgCVV7e06MqLM=
   dependencies:
     magic-string "0.19.0"
     source-map "0.5.6"
