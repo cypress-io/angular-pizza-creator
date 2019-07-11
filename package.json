@@ -25,7 +25,7 @@
     "@types/node": "7.10.6",
     "@ultimate/aot-loader": "0.1.16",
     "angular2-template-loader": "0.6.2",
-    "awesome-typescript-loader": "3.0.8",
+    "awesome-typescript-loader": "3.5.0",
     "cypress": "3.4.0",
     "file-loader": "0.10.1",
     "html-loader": "0.4.5",
