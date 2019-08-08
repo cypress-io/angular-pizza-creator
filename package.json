@@ -40,7 +40,7 @@
     "raw-loader": "0.5.1",
     "rimraf": "2.6.0",
     "sass-loader": "6.0.2",
-    "start-server-and-test": "1.9.1",
+    "start-server-and-test": "1.9.2",
     "typescript": "3.5.3",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.4.1"
