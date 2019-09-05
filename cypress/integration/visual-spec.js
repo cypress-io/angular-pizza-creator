@@ -1,4 +1,3 @@
-/// <reference types="Cypress" />
 context('Pizza Creator', () => {
   beforeEach(() => {
     // uses base url setting from cypress.json
