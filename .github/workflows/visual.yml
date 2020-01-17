@@ -1,0 +1,23 @@
+name: Visual
+on: [push]
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
+        with:
+          build: yarn setup
+          start: yarn start
+          # quote the url to be safe against YML parsing surprises
+          wait-on: 'http://localhost:3000'
+          # the entire command will automatically be prefixed with "npx"
+          command-prefix: 'percy exec -- npx'
+        env:
+          # pass PERCY_TOKEN secret via environment variable
+          PERCY_TOKEN: ${{ secrets.percy_token }}
