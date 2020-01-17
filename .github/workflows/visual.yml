@@ -12,7 +12,8 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@496e538
         with:
-          start: yarn setup && yarn start
+          build: yarn setup
+          start: yarn start
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:3000'
           command-prefix: 'yarn run percy exec --'
