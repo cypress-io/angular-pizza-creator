@@ -16,4 +16,5 @@ jobs:
           start: yarn start
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:3000'
-          command-prefix: 'yarn run percy exec --'
+          # the entire command will automatically be prefixed with "npx"
+          command-prefix: 'run percy exec --'
