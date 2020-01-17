@@ -17,4 +17,4 @@ jobs:
           # quote the url to be safe against YML parsing surprises
           wait-on: 'http://localhost:3000'
           # the entire command will automatically be prefixed with "npx"
-          command-prefix: 'percy exec --'
+          command-prefix: 'percy exec -- npx'
