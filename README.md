@@ -1,4 +1,5 @@
-# Angular Pizza Creator [![CircleCI](https://circleci.com/gh/cypress-io/angular-pizza-creator.svg?style=svg)](https://circleci.com/gh/cypress-io/angular-pizza-creator) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.png)](https://percy.io/cypress-io/angular-pizza-creator) [![renovate-app badge][renovate-badge]][renovate-app]
+# Angular Pizza Creator [![CircleCI](https://circleci.com/gh/cypress-io/angular-pizza-creator.svg?style=svg)](https://circleci.com/gh/cypress-io/angular-pizza-creator) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.png)](https://percy.io/cypress-io/angular-pizza-creator) [![renovate-app badge][renovate-badge]][renovate-app] ![GH Action](https://github.com/cypress-io/angular-pizza-creator/workflows/Visual/badge.svg?branch=master)
+
 
 Forked from [https://github.com/toddmotto/angular-pizza-creator](https://github.com/toddmotto/angular-pizza-creator)
 
