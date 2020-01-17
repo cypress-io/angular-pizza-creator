@@ -6,8 +6,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
       - name: Cypress run
-        uses: cypress-io/github-action@v1
+        uses: cypress-io/github-action@496e538
         with:
           start: yarn setup && yarn start
           # quote the url to be safe against YML parsing surprises
