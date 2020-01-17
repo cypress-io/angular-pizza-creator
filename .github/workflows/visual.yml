@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: '10.x'
       - name: Cypress run
-        uses: cypress-io/github-action@484080f
+        uses: cypress-io/github-action@v1
         with:
           build: yarn setup
           start: yarn start
