@@ -4,6 +4,10 @@ orbs:
   # import Cypress orb by specifying an exact version x.y.z
   # or the latest version 1.x.x using "@1" syntax
   cypress: cypress-io/cypress@1
+executors:
+  base-12:
+    docker:
+      - image: 'cypress/base:12.0.0-libgbm'
 workflows:
   build:
     jobs:
@@ -16,3 +20,4 @@ workflows:
           command: npx percy exec -- cypress run --record
           # no need to save this workspace - there are no jobs after this one
           no-workspace: true
+          executor: base-12
