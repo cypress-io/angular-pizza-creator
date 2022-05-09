@@ -16,8 +16,8 @@
     "dev": "start-test 3000 cypress:open"
   },
   "devDependencies": {
-    "@angular/compiler": "4.0.0-rc.3",
-    "@angular/compiler-cli": "4.0.0-rc.3",
+    "@angular/compiler": "4.4.7",
+    "@angular/compiler-cli": "4.4.7",
     "@percy/cypress": "2.3.1",
     "@types/core-js": "0.9.46",
     "@types/jasmine": "2.8.16",
@@ -46,18 +46,18 @@
     "webpack-dev-server": "2.4.1"
   },
   "dependencies": {
-    "@angular/animations": "4.0.0-rc.3",
-    "@angular/common": "4.0.0-rc.3",
-    "@angular/core": "4.0.0-rc.3",
-    "@angular/forms": "4.0.0-rc.3",
-    "@angular/http": "4.0.0-rc.3",
-    "@angular/platform-browser": "4.0.0-rc.3",
-    "@angular/platform-browser-dynamic": "4.0.0-rc.3",
-    "@angular/router": "4.0.0-rc.3",
+    "@angular/animations": "4.4.7",
+    "@angular/common": "4.4.7",
+    "@angular/core": "4.4.7",
+    "@angular/forms": "4.4.7",
+    "@angular/http": "4.0.0-rc.6",
+    "@angular/platform-browser": "4.4.7",
+    "@angular/platform-browser-dynamic": "4.4.7",
+    "@angular/router": "4.4.7",
     "core-js": "2.4.1",
     "reflect-metadata": "0.1.10",
     "rxjs": "5.2.0",
     "tslib": "1.6.0",
-    "zone.js": "0.7.7"
+    "zone.js": "0.11.5"
   }
 }
